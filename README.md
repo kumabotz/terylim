@@ -1,1 +1,1 @@
-# terylim [![Build Status](https://travis-ci.org/kumabotz/terylim.svg)](https://travis-ci.org/kumabotz/terylim)
+# terylim [![Build Status](https://travis-ci.org/kumabotz/terylim.svg)](https://travis-ci.org/kumabotz/terylim) [![Code Climate](https://codeclimate.com/github/kumabotz/terylim.png)](https://codeclimate.com/github/kumabotz/terylim)
