@@ -35,6 +35,7 @@ gem 'spring',        group: :development
 
 gem 'rack', '~> 1.5.2'
 gem 'foundation-rails', '~> 5.3.1.0'
+gem 'autoprefixer-rails', '~> 2.2.0.20140727'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 group :doc do
