@@ -5,8 +5,11 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="description" content="" />
   <meta name="keywords" content="" />
+  <noscript><%= stylesheet_link_tag 'site', media: 'all', 'data-turbolinks-track' => true %></noscript>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <!--[if lte IE 9]><%= stylesheet_link_tag 'ie/v9', media: 'all', 'data-turbolinks-track' => true %><![endif]-->
+  <!--[if lte IE 8]><%= stylesheet_link_tag 'ie/v8', media: 'all', 'data-turbolinks-track' => true %><![endif]-->
   <!--[if lte IE 8]><%= javascript_include_tag 'ie/html5shiv' %><![endif]-->
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
